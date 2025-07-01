@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'matches',
     'dados',
     'rest_framework.authtoken',
-    'authentication'
+    'authentication',
+    'teams',
 ]
 
 MIDDLEWARE = [

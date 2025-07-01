@@ -119,3 +119,8 @@
     gap: 15px;
   }
 }
+
+.team-photo {
+  width: 5.3rem;
+  height: 5.3rem;
+}

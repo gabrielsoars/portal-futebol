@@ -16,10 +16,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.http import JsonResponse
-
-def cors_test(request):
-    return JsonResponse({'message': 'CORS funcionando'})
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,5 +24,5 @@ urlpatterns = [
     path('api/', include('dados.urls')),
     path('api/players/', include('players.urls')),
     path('api/auth/', include('authentication.urls')),
-    # Em breve: teams, players, etc
+    path('api/teams/', include('teams.urls')),
 ]
