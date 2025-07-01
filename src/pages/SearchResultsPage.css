@@ -12,8 +12,12 @@
   margin-bottom: 15px;
 }
 
-.result-item {
-  display: block;
+/* --- ESTILOS PARA OS RESULTADOS RICOS --- */
+
+.result-item-rich {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   padding: 12px;
   background-color: #fff;
   border-radius: 4px;
